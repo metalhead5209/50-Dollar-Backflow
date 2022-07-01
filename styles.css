@@ -26,9 +26,24 @@ body {
 
 header {
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
 .whole-body {
-    margin: auto 10%;
+    margin: auto 5%;
 }
+
+.card-body {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.rounded {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
