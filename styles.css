@@ -5,8 +5,7 @@ body {
     width: 100%;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
-    background: rgb(221,52,52);
-    background: linear-gradient(90deg, rgba(221,52,52,1) 22%, rgba(8,43,115,1) 96%);
+    /* background: linear-gradient(90deg, rgba(221,52,52,1) 22%, rgba(8,43,115,1) 96%); */
 }
 
 .navbar {
@@ -46,4 +45,6 @@ header {
 .rounded {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+
 
