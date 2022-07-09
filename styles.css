@@ -29,9 +29,6 @@ header {
 }
 
 
-.whole-body {
-    margin: auto 5%;
-}
 
 .card-body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -42,9 +39,11 @@ header {
 
 }
 
-.rounded {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+#form {
+    background-color: rgb(229, 229, 229);
 }
+
+
 
 
 

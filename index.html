@@ -10,6 +10,9 @@
 </head>
 <body>
 
+
+    <!-- Nav -->
+
     <nav class="navbar navbar-expand-md bg-dark sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -29,6 +32,9 @@
                 <a class="nav-link text-white" href="#services">Services</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link text-white" href="/bfbasics.html">Back Flow Basics</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link text-light" href="#quote">Get a Quote</a>
               </li>
             </ul>
@@ -36,7 +42,6 @@
       </div>
     </nav>
 
-    <div class="whole-body">
 
      <header class="bg-light py-5 mt-2">
         <div class="container px-5 text-center">
@@ -47,9 +52,10 @@
         </div>
     </header>
 
+    
+    <!-- About Section -->
 
-
-    <section class="py-5 border-bottom align-middle" id="about">
+    <section class="bg-white py-5 border-bottom align-middle" id="about">
       <div class="container px-5 my-5">
           <div class="row justify-content-around">
               <div class="col-lg-3 mb-5 mb-lg-0 bg-light card mx-3 p-3">
@@ -71,7 +77,10 @@
       </div>
   </section>
 
-  <section class="bg-light py-5 rounded" id="services">
+
+  <!-- Services Section -->
+   
+  <section class="bg-light py-5" id="services">
     <div class="container px-5 my-5">
         <div class="text-center mb-5">
             <h2 class="fw-bolder">What we can do for you?</h2>
@@ -110,7 +119,7 @@
                 </div>
             </div>
             <!-- Pricing card Pro -->
-            <div class="col-lg-6 col-xl-4">
+            <div class="bg-white col-lg-6 col-xl-4">
               <div class="card mb-5 mb-xl-0">
                   <div class="card-body p-5">
                       <div class="small text-uppercase fw-bold text-muted">Pro</div>
@@ -175,25 +184,29 @@
     </div>
 </section>
 
-<section class="py-5 rounded bg-light mt-5 mb-5" id="quote">
+
+<!-- Quote Section -->
+
+<section class="py-5 bg-white mb-5" id="quote">
     <div class="container">
         <div class="col-lg-8 col-md-6 mx-sm-3 mx-md-auto mx-lg-auto">
-            <div class="card p-4 bg-secondary">
+          <h1 class="h1 text-center">Get a Quote!</h1>
+            <div class="card p-4" id="form">
                     <form action="#">
             <div class="form-group">
-                <label for="Name" class="text-light mt-3">Name</label>
-                <input type="name" class="form-control" id="Name" placeholder="Name">
+                <label for="Name" class="text-dark mt-3">Name</label>
+                <input type="name" class="form-control" id="Name">
             </div>
             <div class="form-group">
-                <label for="Email1" class="text-light mt-3">Email</label>
-                <input type="email" class="form-control" id="Email1" placeholder="Email">
+                <label for="Email1" class="text-dark mt-3">Email</label>
+                <input type="email" class="form-control" id="Email1">
           </div>  
           <div class="form-group">
-                <label for="phone" class="text-light mt-3">Phone Number</label>
-                <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                <label for="phone" class="text-dark mt-3">Phone Number</label>
+                <input type="text" class="form-control" id="phone">
           </div>
           <div class="form-group">
-            <label for="text-area" class="text-light mt-3">Message</label>
+            <label for="text-area" class="text-dark mt-3">Message</label>
             <textarea class="form-control" id="text-area" rows="5"></textarea>
           </div>
           <div class="d-flex justify-content-center">
@@ -207,7 +220,10 @@
 
 
 
-</div>
+
+
+
+<!-- Footer Section -->
 
 <footer class="text-center text-lg-start bg-dark text-light">
     <!-- Section: Social media -->
